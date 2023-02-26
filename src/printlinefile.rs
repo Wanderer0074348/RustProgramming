@@ -12,4 +12,16 @@ fn main() {
 // println!: same as print! but a newline is appended.
 // eprint!: same as print! but the text is printed to the standard error (io::stderr).
 // eprintln!: same as eprint! but a newline is appended.
+
+// integers
+    let x:i32 = 50;
+    println!("{}",x);
+// float
+    let y:f64 = 24532429258.00;
+    println!("{}",y);
+// Max value of datatype eg) f64
+    println!("{}",std::f64::MAX);
+// unsigned integers
+    let p:u32=53;
+    println!("{}",p);
 }
